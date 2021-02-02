@@ -12,7 +12,7 @@ dappuniversity.com/articles/the-ultimate-ehtereum-dapp-tutorial
 5. Download the Metamask Chrome Extension
 6. Download Sublime Text (or an IDE of your choosing)
 7. (Optional) Download an ethereum package/plugin for syntax highlighting
-8. Open Ganace and select Ethereum Quickstart
+8. Open Ganache and select Ethereum Quickstart
 9. Navigate CLI to working directory and unbox pet-shop with Truffle\
 
 BOOKMARK - List Candidates - Step 2
