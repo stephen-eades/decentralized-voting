@@ -12,7 +12,7 @@ contract Election {
 	// Read/write Candidates
 	mapping(uint => Candidate) public candidates;
 	// Store accounts that have voted
-	mapping(address => bool)) public voters;
+	mapping(address => bool) public voters;
 	// Store Candidates Count
 	uint public candidatesCount;
 
@@ -27,7 +27,7 @@ contract Election {
 		candidates[candidatesCount] = Candidate(candidatesCount, _name, 0);
 	}
 
-	function vote (uint memory _candidateId) public {
+	function vote (uint _candidateId) public {
 		// require that they haven't voted before
 		require(!voters[msg.sender]);
 		// require a valid candidate
